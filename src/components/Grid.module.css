@@ -1,0 +1,18 @@
+.gridMain{
+    width: 600px;
+    height: 450px;
+    display: grid;
+    background-color: black;
+    border: 1px solid gray;
+    resize: both;
+    overflow: hidden;
+    max-width: 900px;
+    max-height: 650px;
+    min-width: 600px;
+    min-height: 450px;
+}
+.square{
+    background-color: black;
+    border: 1px solid gray;
+    transition: background-color 0.5s ease-in-out;
+}
